@@ -314,8 +314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UseJobSystem: 1
-  ObjectToMove: {fileID: 1321260763623942746, guid: 13e18ac5d4b67da4db9e312479b3692e,
-    type: 3}
+  Prefab: {fileID: 1321260763623942746, guid: 13e18ac5d4b67da4db9e312479b3692e, type: 3}
   NumberOfObjects: 1000
   XSpread: 10
   YSpread: 10
