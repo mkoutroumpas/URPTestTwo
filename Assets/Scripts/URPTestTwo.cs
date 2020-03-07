@@ -84,7 +84,7 @@ public class URPTestTwo : MonoBehaviour
 
                 _entityManager.SetComponentData(_moveableObjects[i].Entity, new Translation { Value = _moveableObjects[i].Position });
             }
-
+            
             _velocities.Dispose();
             _positions.Dispose();
         }

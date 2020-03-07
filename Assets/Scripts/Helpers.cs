@@ -1,4 +1,5 @@
 ﻿using Unity.Mathematics;
+using UnityEngine;
 
 namespace Assets.Scripts.Classes
 {
@@ -11,6 +12,11 @@ namespace Assets.Scripts.Classes
             {
                 value = math.exp10(math.sqrt(value));
             }
+        }
+
+        public static Color GenerateColor(int i = 0)
+        {
+            return Color.blue;
         }
     }
 }
