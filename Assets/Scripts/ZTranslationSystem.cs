@@ -9,7 +9,7 @@ using Unity.Transforms;
 public class ZTranslationSystem : JobComponentSystem
 {
     [BurstCompile]
-    [RequireComponentTag(typeof(Cube))]
+    [RequireComponentTag(typeof(CubeComponent))]
     struct TranslateJob : IJobForEach<Translation, MoveSpeedComponentData>
     {
         [ReadOnly]

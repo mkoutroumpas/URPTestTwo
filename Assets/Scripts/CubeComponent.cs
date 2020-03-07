@@ -2,4 +2,4 @@
 using Unity.Entities;
 
 [Serializable]
-public struct Cube : IComponentData { }
+public struct CubeComponent : IComponentData { }

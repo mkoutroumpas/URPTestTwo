@@ -34,7 +34,7 @@ public class URPTestTwo : MonoBehaviour
 
             var entityInstance = _entityManager.Instantiate(entity);
 
-            _entityManager.AddComponent(entityInstance, typeof(Cube));
+            _entityManager.AddComponent(entityInstance, typeof(CubeComponent));
             _entityManager.AddComponentData(entityInstance, new MoveSpeedComponentData { Value = Random.Range(0.1f, 1.0f) });
             _entityManager.SetComponentData(entityInstance, new Translation { Value = position });
         }
